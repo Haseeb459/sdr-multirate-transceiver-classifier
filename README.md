@@ -19,12 +19,12 @@ An end-to-end Software Defined Radio (SDR) transceiver pipeline and signal class
 ### 1. Multirate DUC/DDC Spectrum Verification
 The baseband signal ($f_s = 4\text{ kHz}$) is upconverted to an IF carrier at $8\text{ kHz}$ ($f_s = 32\text{ kHz}$) and successfully downconverted/decimated back to baseband without aliasing or spectral distortion.
 
-![DUC/DDC Spectrum](docs/spectrum_plots.png)
+![DUC/DDC Spectrum](docs/spectrum_plots.PNG)
 
 ### 2. Time-Frequency Waveform Classification
 STFT analysis visually separates stationary communications bandwidth (QPSK) from frequency-agile radar waveforms (LFM Chirp).
 
-![STFT Spectrograms](docs/spectrogram_plots.png)
+![STFT Spectrograms](docs/spectrogram_plots.PNG)
 
 ---
 
